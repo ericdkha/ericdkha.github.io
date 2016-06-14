@@ -179,6 +179,7 @@
 }
 .fa-envelope-o:before {
   content: "\f003";
+  display: inline-block;
 }
 .fa-heart:before {
   content: "\f004";
@@ -578,6 +579,7 @@
 }
 .fa-linkedin-square:before {
   content: "\f08c";
+  display: inline-block;
 }
 .fa-thumb-tack:before {
   content: "\f08d";

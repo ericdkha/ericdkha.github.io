@@ -520,6 +520,20 @@ if (typeof jQuery === 'undefined') {
   $(document)
     .on('click.bs.carousel.data-api', '[data-slide]', clickHandler)
     .on('click.bs.carousel.data-api', '[data-slide-to]', clickHandler)
+  
+  $(document).ready(function() {
+
+  	$('.simple-ajax-popup-align-top').magnificPopup({
+  		type: 'ajax',
+  		alignTop: true,
+  		overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to       avoid jump
+  	});
+  
+  	$('.simple-ajax-popup').magnificPopup({
+  		type: 'ajax'
+  	});
+	
+});
 
   $(window).on('load', function () {
     $('[data-ride="carousel"]').each(function () {
@@ -2341,7 +2355,6 @@ if (typeof jQuery === 'undefined') {
     $.fn.affix = old
     return this
   }
-
 
   // AFFIX DATA-API
   // ==============

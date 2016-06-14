@@ -34,6 +34,7 @@ video {
   display: inline-block;
   vertical-align: baseline;
 }
+
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -227,6 +228,7 @@ th {
   }
   img {
     max-width: 100% !important;
+    max-height:100%;
   }
   p,
   h2,

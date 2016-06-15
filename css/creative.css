@@ -410,11 +410,13 @@ header .header-content .header-content-inner p {
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-    position: absolute;
+    position: relative;
     top: 50%;
     width: 100%;
     text-align: center;
-    
+    transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,

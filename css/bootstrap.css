@@ -1119,7 +1119,8 @@ img {
   vertical-align: middle;
 }
 .img-responsive {
-  
+  margin: 0;
+  display: block;
 },
 .thumbnail > img,
 .thumbnail a > img,

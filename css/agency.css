@@ -48,7 +48,9 @@ h6 {
   font-weight: 700;
 }
 .img-centered {
-  margin: 0 auto;
+  margin: 0;
+  position:relative;
+  display: block;
 }
 .bg-light-gray {
   background-color: #f7f7f7;

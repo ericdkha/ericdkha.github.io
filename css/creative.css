@@ -458,10 +458,9 @@ header .header-content .header-content-inner p {
   url('../img/me.jpg');
   width: 100%;
   height: auto;
-background-repeat:no-repeat;
-background-size:contain;
-background-position:center;
-
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
